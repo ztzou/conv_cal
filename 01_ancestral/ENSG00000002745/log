@@ -1,0 +1,178 @@
+
+ 15         verbose | verbose                1.00
+  7         runmode | runmode                0.00
+  4         seqtype | seqtype                2.00
+ 13       CodonFreq | CodonFreq              2.00
+  9           clock | clock                  0.00
+ 18          aaDist | aaDist                 0.00
+ 19      aaRatefile | aaRatefile             1.00
+ 16           model | model                  3.00
+ 20         NSsites | NSsites                0.00
+ 22           icode | icode                  0.00
+ 23           Mgene | Mgene                  0.00
+ 24       fix_kappa | fix_kappa              0.00
+ 25           kappa | kappa                  2.00
+ 26       fix_omega | fix_omega              0.00
+ 27           omega | omega                  0.40
+ 28       fix_alpha | fix_alpha              0.00
+ 29           alpha | alpha                  1.00
+ 30          Malpha | Malpha                 0.00
+ 31           ncatG | ncatG                  8.00
+ 11           getSE | getSE                  0.00
+ 12    RateAncestor | RateAncestor           1.00
+ 36      Small_Diff | Small_Diff             0.00
+  6       cleandata | cleandata              1.00
+  8          method | method                 0.00
+AAML in paml version 4.9j, February 2020
+
+processing fasta file
+reading seq# 1 Ailuropoda                                             278 sites
+reading seq# 2 Bos                                                    278 sites
+reading seq# 3 Callithrix                                             278 sites
+reading seq# 4 Canis                                                  278 sites
+reading seq# 5 Cavia                                                  278 sites
+reading seq# 6 Felis                                                  278 sites
+reading seq# 7 Homo                                                   278 sites
+reading seq# 8 Loxodonta                                              278 sites
+reading seq# 9 Macaca                                                 278 sites
+reading seq#10 Monodelphis                                            278 sites
+reading seq#11 Mus                                                    278 sites
+reading seq#12 Ornithorhynchus                                        278 sites
+reading seq#13 Oryctolagus                                            278 sites
+reading seq#14 Otolemur                                               278 sites
+reading seq#15 Rattus                                                 278 sites
+reading seq#16 Sarcophilus                                            278 sites
+reading seq#17 Sus                                                    278 sitesns = 17  	ls = 278
+Reading sequences, sequential format..
+Reading seq # 1: Ailuropoda       
+Reading seq # 2: Bos       
+Reading seq # 3: Callithrix       
+Reading seq # 4: Canis       
+Reading seq # 5: Cavia       
+Reading seq # 6: Felis       
+Reading seq # 7: Homo       
+Reading seq # 8: Loxodonta       
+Reading seq # 9: Macaca       
+Reading seq #10: Monodelphis       
+Reading seq #11: Mus       
+Reading seq #12: Ornithorhynchus       
+Reading seq #13: Oryctolagus       
+Reading seq #14: Otolemur       
+Reading seq #15: Rattus       
+Reading seq #16: Sarcophilus       
+Reading seq #17: Sus       
+
+Sequences read..
+Counting site patterns..  0:00
+Compressing,    114 patterns at    278 /    278 sites (100.0%),  0:00
+Collecting fpatt[] & pose[],    114 patterns at    278 /    278 sites (100.0%),  0:00
+Counting frequencies..
+
+     1088 bytes for distance
+    36480 bytes for conP
+     7296 bytes for fhK
+  5000000 bytes for space
+
+TREE #  1
+(((((((7, 9), 3), 14), (13, (5, (11, 15)))), ((2, 17), (6, (1, 4)))), 8), (16, 10), 12);   MP score: 205
+   273600 bytes for conP, adjusted
+
+
+Reading matrix from /home/ztzou/Documents/04_conv_cal/conv_cal/00_input/jones.dat
+    0.028036    0.104315    0.058115    0.097538    0.046761    0.037797    0.054069    0.094429    0.037487    0.077661    0.095612    0.077485    0.025491    0.074517    0.040167    0.044087    0.045118    0.080145    0.048259    0.035811    0.047264    0.106178    0.018693    0.010152    0.094662    0.055347    0.073239    0.037146    0.037144    0.023720    0.070518    1.000000
+
+ntime & nrate & np:    31     0    32
+
+Bounds (np=32):
+   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.000004   0.020000
+  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  50.000000  49.000000
+
+np =    32
+lnL0 = -2172.853085
+
+Iterating by ming2
+Initial: fx=  2172.853085
+x=  0.02804  0.10432  0.05812  0.09754  0.04676  0.03780  0.05407  0.09443  0.03749  0.07766  0.09561  0.07748  0.02549  0.07452  0.04017  0.04409  0.04512  0.08014  0.04826  0.03581  0.04726  0.10618  0.01869  0.01015  0.09466  0.05535  0.07324  0.03715  0.03714  0.02372  0.07052  1.00000
+
+  1 h-m-p  0.0000 0.0002 878.2175 +++    2059.690623  m 0.0002    38 | 1/32
+  2 h-m-p  0.0000 0.0001 768.0066 ++     2015.686171  m 0.0001    73 | 1/32
+  3 h-m-p  0.0000 0.0000 2674.7110 ++     2006.192792  m 0.0000   108 | 1/32
+  4 h-m-p  0.0000 0.0000 3383.1512 
+h-m-p:      1.58554747e-22      7.92773734e-22      3.38315118e+03  2006.192792
+..  | 1/32
+  5 h-m-p  0.0000 0.0001 872.4688 +CCCCC  1998.377940  4 0.0000   184 | 1/32
+  6 h-m-p  0.0000 0.0000 499.3387 ++     1990.573888  m 0.0000   219 | 2/32
+  7 h-m-p  0.0000 0.0000 931.5925 ++     1986.672741  m 0.0000   254 | 2/32
+  8 h-m-p  0.0000 0.0001 304.7502 +YYCCC  1985.540673  4 0.0000   296 | 2/32
+  9 h-m-p  0.0000 0.0000 262.4925 +CYC   1985.218180  2 0.0000   335 | 2/32
+ 10 h-m-p  0.0000 0.0002  97.7523 CCCC   1984.937954  3 0.0001   376 | 2/32
+ 11 h-m-p  0.0000 0.0002 186.3274 CCC    1984.727364  2 0.0000   415 | 2/32
+ 12 h-m-p  0.0001 0.0012  65.5889 CCC    1984.536138  2 0.0002   454 | 2/32
+ 13 h-m-p  0.0001 0.0006 106.9235 CC     1984.344777  1 0.0001   491 | 2/32
+ 14 h-m-p  0.0001 0.0010 108.6369 +YYCC  1983.811304  3 0.0003   531 | 2/32
+ 15 h-m-p  0.0001 0.0009 657.5040 +CYCCC  1981.148958  4 0.0003   574 | 2/32
+ 16 h-m-p  0.0001 0.0003 2416.3045 CYYCCC  1975.185811  5 0.0001   618 | 2/32
+ 17 h-m-p  0.0001 0.0007 552.7599 YYCC   1974.462589  3 0.0001   657 | 2/32
+ 18 h-m-p  0.0001 0.0003  85.3201 YCCC   1974.332086  3 0.0001   697 | 2/32
+ 19 h-m-p  0.0002 0.0014  52.4861 YC     1974.267583  1 0.0001   733 | 2/32
+ 20 h-m-p  0.0003 0.0017  22.0207 YC     1974.245855  1 0.0002   769 | 2/32
+ 21 h-m-p  0.0002 0.0056  18.4327 CC     1974.223414  1 0.0003   806 | 2/32
+ 22 h-m-p  0.0004 0.0035  12.3193 YC     1974.215278  1 0.0002   842 | 2/32
+ 23 h-m-p  0.0005 0.0135   4.2015 YC     1974.211723  1 0.0002   878 | 2/32
+ 24 h-m-p  0.0003 0.0115   3.9485 YC     1974.198971  1 0.0006   914 | 2/32
+ 25 h-m-p  0.0002 0.0036  13.4806 YC     1974.163302  1 0.0003   950 | 2/32
+ 26 h-m-p  0.0006 0.0076   6.9228 YCC    1973.988588  2 0.0013   988 | 2/32
+ 27 h-m-p  0.0002 0.0024  37.9537 +YCCC  1973.213326  3 0.0006  1029 | 2/32
+ 28 h-m-p  0.0001 0.0007 119.7975 YCCC   1971.625976  3 0.0004  1069 | 2/32
+ 29 h-m-p  0.0001 0.0007 150.8468 YCCC   1969.982378  3 0.0003  1109 | 2/32
+ 30 h-m-p  0.0002 0.0010  49.4884 CCCC   1969.729246  3 0.0003  1150 | 2/32
+ 31 h-m-p  0.0001 0.0009 102.6290 +YCCC  1969.110682  3 0.0004  1191 | 2/32
+ 32 h-m-p  0.0003 0.0017  87.8268 CCCC   1968.683904  3 0.0004  1232 | 2/32
+ 33 h-m-p  0.0004 0.0018  16.4671 YC     1968.666366  1 0.0002  1268 | 2/32
+ 34 h-m-p  0.0005 0.0178   5.3439 YC     1968.662507  1 0.0003  1304 | 2/32
+ 35 h-m-p  0.0013 0.0421   1.0275 CC     1968.654188  1 0.0020  1341 | 2/32
+ 36 h-m-p  0.0037 0.0372   0.5449 ++     1967.120045  m 0.0372  1376 | 2/32
+ 37 h-m-p  0.1449 0.7245   0.0648 +YCCC  1966.451033  3 0.4030  1447 | 2/32
+ 38 h-m-p  0.5762 3.7272   0.0453 YCCC   1966.234658  3 0.3972  1517 | 2/32
+ 39 h-m-p  0.4900 2.4498   0.0110 CCC    1966.180405  2 0.6760  1586 | 2/32
+ 40 h-m-p  0.9141 4.5706   0.0017 YC     1966.175929  1 0.6758  1652 | 2/32
+ 41 h-m-p  1.5052 8.0000   0.0008 YC     1966.175433  1 0.7028  1718 | 2/32
+ 42 h-m-p  1.6000 8.0000   0.0003 Y      1966.175371  0 0.6573  1783 | 2/32
+ 43 h-m-p  1.6000 8.0000   0.0001 Y      1966.175363  0 0.6972  1848 | 2/32
+ 44 h-m-p  1.2980 8.0000   0.0001 Y      1966.175362  0 0.6910  1913 | 2/32
+ 45 h-m-p  1.6000 8.0000   0.0000 Y      1966.175361  0 0.8603  1978 | 2/32
+ 46 h-m-p  1.6000 8.0000   0.0000 Y      1966.175361  0 0.8696  2043 | 2/32
+ 47 h-m-p  1.6000 8.0000   0.0000 Y      1966.175361  0 0.8611  2108 | 2/32
+ 48 h-m-p  1.6000 8.0000   0.0000 C      1966.175361  0 2.3845  2173 | 2/32
+ 49 h-m-p  1.3192 8.0000   0.0000 -C     1966.175361  0 0.1125  2239 | 2/32
+ 50 h-m-p  0.1272 8.0000   0.0000 --Y    1966.175361  0 0.0020  2306
+Out..
+lnL  = -1966.175361
+2307 lfun, 0 eigenQcodon, 572136 P(t)
+
+Reconstructed ancestral states go into file rst.
+Rates are variable among sites, marginal reconstructions only.
+
+lnL = -1966.175361 from ProbSitePattern.
+Marginal reconstruction.
+	Node  18: lnL = -1966.175361
+	Node  19: lnL = -1966.175361
+	Node  20: lnL = -1966.175361
+	Node  21: lnL = -1966.175361
+	Node  22: lnL = -1966.175361
+	Node  23: lnL = -1966.175361
+	Node  24: lnL = -1966.175361
+	Node  25: lnL = -1966.175361
+	Node  26: lnL = -1966.175361
+	Node  27: lnL = -1966.175361
+	Node  28: lnL = -1966.175361
+	Node  29: lnL = -1966.175361
+	Node  30: lnL = -1966.175361
+	Node  31: lnL = -1966.175361
+	Node  32: lnL = -1966.175361
+
+Estimated rates for sites go into file rates
+lnL =  -1966.175361
+end of tree file.
+
+Time used:  0:19

@@ -1,0 +1,144 @@
+
+Estimated rates for sites from AAML.
+(((((((Homo: 0.000004, Macaca: 0.000004): 0.000004, Callithrix: 0.509863): 0.000004, Otolemur: 0.000004): 0.000004, (Oryctolagus: 0.000004, (Cavia: 0.016445, (Mus: 0.000004, Rattus: 0.000004): 0.000004): 0.000004): 0.000004): 0.000004, ((Bos: 0.000004, Sus: 0.000004): 0.000004, (Felis: 0.000004, (Ailuropoda: 0.000004, Canis: 0.000004): 0.000004): 0.000004): 0.000004): 0.000004, Loxodonta: 0.000004): 0.008680, (Sarcophilus: 0.000004, Monodelphis: 0.007733): 0.007103, Ornithorhynchus: 0.067692);
+
+Frequencies and rates for categories (K=8)
+rate:  0.00008  0.00303  0.02286  0.09201  0.27052  0.67575  1.61214  5.32359
+freq:  0.12500  0.12500  0.12500  0.12500  0.12500  0.12500  0.12500  0.12500
+
+   Site  Freq   Data    Rate (posterior mean & category)
+
+      1     4  PPPPPPPPPPPPPPPPP    0.365     1
+      2     1  TTTTTTTTTTTPTTTTT    1.999     7
+      3     1  IIIIIIIIIIIAIIIII    2.131     7
+      4     7  GGGGGGGGGGGGGGGGG    0.403     1
+      5     5  FFFFFFFFFFFFFFFFF    0.411     1
+      6     6  NNNNNNNNNNNNNNNNN    0.253     1
+      7     8  VVVVVVVVVVVVVVVVV    0.341     1
+      8     7  EEEEEEEEEEEEEEEEE    0.301     1
+      9     3  TTTTTTTTTTTTTTTTT    0.288     1
+     10     8  VVVVVVVVVVVVVVVVV    0.341     1
+     11     7  EEEEEEEEEEEEEEEEE    0.301     1
+     12     3  YYYYYYYYYYYYYYYYY    0.408     1
+     13     4  KKKKKKKKKKKKKKKKK    0.291     1
+     14     6  NNNNNNNNNNNNNNNNN    0.253     1
+     15     3  IIIIIIIIIIIIIIIII    0.228     1
+     16     1  CCCCCCCCCCCCCCCCC    0.435     1
+     17     5  FFFFFFFFFFFFFFFFF    0.411     1
+     18     3  TTTTTTTTTTTTTTTTT    0.288     1
+     19     8  VVVVVVVVVVVVVVVVV    0.341     1
+     20     2  WWWWWWWWWWWWWWWWW    0.577     1
+     21     8  DDDDDDDDDDDDDDDDD    0.321     1
+     22     8  VVVVVVVVVVVVVVVVV    0.341     1
+     23     7  GGGGGGGGGGGGGGGGG    0.403     1
+     24     7  GGGGGGGGGGGGGGGGG    0.403     1
+     25     7  QQQQQQQQQQQQQQQQQ    0.303     1
+     26     8  DDDDDDDDDDDDDDDDD    0.321     1
+     27     4  KKKKKKKKKKKKKKKKK    0.291     1
+     28     3  IIIIIIIIIIIIIIIII    0.228     1
+     29     6  RRRRRRRRRRRRRRRRR    0.314     1
+     30     4  PPPPPPPPPPPPPPPPP    0.365     1
+     31    10  LLLLLLLLLLLLLLLLL    0.438     1
+     32     2  WWWWWWWWWWWWWWWWW    0.577     1
+     33     6  RRRRRRRRRRRRRRRRR    0.314     1
+     34     1  HHHHHHHHHHHHHHHHH    0.234     1
+     35     3  YYYYYYYYYYYYYYYYY    0.408     1
+     36     5  FFFFFFFFFFFFFFFFF    0.411     1
+     37     7  QQQQQQQQQQQQQQQQQ    0.303     1
+     38     6  NNNNNNNNNNNNNNNNN    0.253     1
+     39     3  TTTTTTTTTTTTTTTTT    0.288     1
+     40     7  QQQQQQQQQQQQQQQQQ    0.303     1
+     41     7  GGGGGGGGGGGGGGGGG    0.403     1
+     42    10  LLLLLLLLLLLLLLLLL    0.438     1
+     43     3  IIIIIIIIIIIIIIIII    0.228     1
+     44     5  FFFFFFFFFFFFFFFFF    0.411     1
+     45     8  VVVVVVVVVVVVVVVVV    0.341     1
+     46     8  VVVVVVVVVVVVVVVVV    0.341     1
+     47     8  DDDDDDDDDDDDDDDDD    0.321     1
+     48     4  SSSSSSSSSSSSSSSSS    0.244     1
+     49     6  NNNNNNNNNNNNNNNNN    0.253     1
+     50     8  DDDDDDDDDDDDDDDDD    0.321     1
+     51     6  RRRRRRRRRRRRRRRRR    0.314     1
+     52     7  EEEEEEEEEEEEEEEEE    0.301     1
+     53     6  RRRRRRRRRRRRRRRRR    0.314     1
+     54     1  VVVVVVVVVVVAVVVVV    2.206     7
+     55     7  QQQQQQQQQQQQQQQQQ    0.303     1
+     56     7  EEEEEEEEEEEEEEEEE    0.301     1
+     57     4  SSSSSSSSSSSSSSSSS    0.244     1
+     58     4  AAAAAAAAAAAAAAAAA    0.256     1
+     59     8  DDDDDDDDDDDDDDDDD    0.321     1
+     60     7  EEEEEEEEEEEEEEEEE    0.301     1
+     61    10  LLLLLLLLLLLLLLLLL    0.438     1
+     62     7  QQQQQQQQQQQQQQQQQ    0.303     1
+     63     4  KKKKKKKKKKKKKKKKK    0.291     1
+     64     3  MMMMMMMMMMMMMMMMM    0.247     1
+     65    10  LLLLLLLLLLLLLLLLL    0.438     1
+     66     7  QQQQQQQQQQQQQQQQQ    0.303     1
+     67     7  EEEEEEEEEEEEEEEEE    0.301     1
+     68     8  DDDDDDDDDDDDDDDDD    0.321     1
+     69     7  EEEEEEEEEEEEEEEEE    0.301     1
+     70    10  LLLLLLLLLLLLLLLLL    0.438     1
+     71     6  RRRRRRRRRRRRRRRRR    0.314     1
+     72     1  DDDDDDDDDEDDDDDED    2.311     7
+     73     4  AAAAAAAAAAAAAAAAA    0.256     1
+     74     8  VVVVVVVVVVVVVVVVV    0.341     1
+     75    10  LLLLLLLLLLLLLLLLL    0.438     1
+     76    10  LLLLLLLLLLLLLLLLL    0.438     1
+     77     8  VVVVVVVVVVVVVVVVV    0.341     1
+     78     5  FFFFFFFFFFFFFFFFF    0.411     1
+     79     4  AAAAAAAAAAAAAAAAA    0.256     1
+     80     6  NNNNNNNNNNNNNNNNN    0.253     1
+     81     4  KKKKKKKKKKKKKKKKK    0.291     1
+     82     7  QQQQQQQQQQQQQQQQQ    0.303     1
+     83     8  DDDDDDDDDDDDDDDDD    0.321     1
+     84     3  MMMMMMMMMMMMMMMMM    0.247     1
+     85     4  PPPPPPPPPPPPPPPPP    0.365     1
+     86     6  NNNNNNNNNNNNNNNNN    0.253     1
+     87     4  AAAAAAAAAAAAAAAAA    0.256     1
+     88     3  MMMMMMMMMMMMMMMMM    0.247     1
+     89     4  PPPPPPPPPPPPPPPPP    0.365     1
+     90     1  VVGVVVVVVVVVVVVVV    2.953     8
+     91     4  SSSSSSSSSSSSSSSSS    0.244     1
+     92     1  EESEEEEEEEEEEEEEE    3.255     8
+     93     1  LLCLLLLLLLLLLLLLL    3.567     8
+     94     1  TTVTTTTTTTTTTTTTT    2.529     8
+     95     8  DDDDDDDDDDDDDDDDD    0.321     1
+     96     1  KKQKKKKKKKKKKKKKK    2.120     7
+     97    10  LLLLLLLLLLLLLLLLL    0.438     1
+     98     1  GGFGGGGGGGGGGGGGG    4.107     8
+     99    10  LLLLLLLLLLLLLLLLL    0.438     1
+    100     1  QQPQQQQQQQQQQQQQQ    2.306     7
+    101     1  HHHHHHHHHNHSHHHSH    3.047     8
+    102     1  LLSLLLLLLLLLLLLLL    3.027     8
+    103     1  RRHRRRRRRRRRRRRRR    2.027     7
+    104     1  SSRSSSSSSSSSSSSSS    2.427     7
+    105     1  RRPRARRRRRRRRRRRR    4.447     8
+    106     1  TTLTRTTTTTTTTTTTT    4.686     8
+    107     1  VVLVVVVVVVVVVVVVV    2.472     7
+    108     1  QQEQQQQQQQQSQQQQQ    4.045     8
+    109     1  AAPAAAAAAAAPAAAAA    4.089     8
+    110     1  TTCTTTTTTTTPTTTTT    4.642     8
+    111     1  CCSCCCCCCCCCCCCCC    2.388     7
+    112     1  AAWAAAAAAAAGAAAAA    4.856     8
+    113     7  GGGGGGGGGGGGGGGGG    0.403     1
+    114     1  TTSTTTTTTTTTTTTTT    1.770     7
+    115     7  GGGGGGGGGGGGGGGGG    0.403     1
+    116     1  LLTLLLLLLLLLLLLLL    3.531     8
+    117     3  YYYYYYYYYYYYYYYYY    0.408     1
+    118     7  GGGGGGGGGGGGGGGGG    0.403     1
+    119     1  LLRLLLLLLLLLLLLLL    3.202     8
+    120     1  DDGDDDDDDDDDDDDDD    2.538     8
+    121     1  WWFWWWWWWWWWWWWWW    3.333     8
+    122    10  LLLLLLLLLLLLLLLLL    0.438     1
+    123     1  SSASSSSSSSSSSSSSS    1.771     7
+    124     1  HHKHHHHHHHHHHHHHH    2.890     8
+    125     1  EEAEEEEEEEEEEEEEE    2.477     8
+    126     1  LLPLLLLLLLLLLLLLL    2.751     8
+    127     4  SSSSSSSSSSSSSSSSS    0.244     1
+    128     1  KKSKKKKKKKKKKKKKK    2.977     8
+    129     6  RRRRRRRRRRRRRRRRR    0.314     1
+
+lnL =   -607.913734
+
+mean(r^)=   1.0156  var(r^)=   1.5482
+Accuracy of rate prediction: corr(r^,r) =   0.6057
