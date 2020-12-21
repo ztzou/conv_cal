@@ -177,8 +177,11 @@ def calc_conv(group, tree, rates, freqs, smat):
             qmat[i, i] = 0
             qmat[i, i] = - numpy.sum(qmat[i, :])
         scale_f = numpy.sum(freqs[idx] * numpy.diag(qmat))
-        qmat = qmat / numpy.abs(scale_f)
-        pmat = scipy.linalg.expm(qmat * d) / mat_scale
+        if numpy.abs(scale_f) > 0.0:
+            qmat = qmat / numpy.abs(scale_f)
+            pmat = scipy.linalg.expm(qmat * d) / mat_scale
+        else:
+            pmat = numpy.identity(smat.shape[0])
         for i in range(pmat.shape[0]):
             pmat[i, i] = 0
             pmat[i, i] = 1 - numpy.sum(pmat[i, :])
@@ -188,9 +191,9 @@ def calc_conv(group, tree, rates, freqs, smat):
             a_root_dist = (tree & b_name).up.get_distance(tree)
             ab_dist = (tree & b_name).dist
             a_prob = evo(anc, a_root_dist * t_scale, pmat)
-            imat = numpy.identity(20)
+            imat = numpy.identity(smat.shape[0])
             b_condmat = evo(imat, ab_dist * t_scale, pmat)
-            ab_totalmat = numpy.multiply(a_prob,b_condmat)
+            ab_totalmat = numpy.multiply(a_prob.reshape(-1, 1),b_condmat)
             totalmat_list.append(ab_totalmat)
         pp, pc = sum_prob(totalmat_list)
         p_list.append(pp)
