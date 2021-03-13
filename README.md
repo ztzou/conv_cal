@@ -2,7 +2,7 @@
 
 Author: Zhengting Zou
 
-Version 0.2 (2020-12-12)
+Version 0.3 (2021-03-13)
 
 __Description__: This is an analysis pipeline for counting the observed number of 
 convergence events within gene sequence alignments between N > 1 branches 

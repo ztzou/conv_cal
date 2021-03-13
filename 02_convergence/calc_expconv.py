@@ -170,7 +170,8 @@ def calc_conv(group, tree, rates, freqs, smat):
     t_scale = mat_scale / d
     if len(freqs.shape) == 1:
         freqs = numpy.repeat(freqs, seq_len, axis=0).reshape(-1, seq_len).T
-    freqs = freqs / freqs.sum(axis=1, keepdims=True) 
+    freqs = freqs / freqs.sum(axis=1, keepdims=True)
+    ancnode = tree.get_common_ancestor(group)
     for idx in range(seq_len):
         qmat = smat.dot(numpy.diag(freqs[idx]))
         for i in range(len(aas)):
@@ -185,15 +186,15 @@ def calc_conv(group, tree, rates, freqs, smat):
         for i in range(pmat.shape[0]):
             pmat[i, i] = 0
             pmat[i, i] = 1 - numpy.sum(pmat[i, :])
-        anc = numpy.array([1.0 if x == tree.sequence[0] else 0. for x in aas])
+        anc = numpy.array([1.0 if x == ancnode.sequence[idx] else 0. for x in aas])
         totalmat_list = []
         for b_name in group:
-            a_root_dist = (tree & b_name).up.get_distance(tree)
-            ab_dist = (tree & b_name).dist
+            a_root_dist = (tree & b_name).up.get_distance(ancnode) * rates[idx]
+            ab_dist = (tree & b_name).dist * rates[idx]
             a_prob = evo(anc, a_root_dist * t_scale, pmat)
             imat = numpy.identity(smat.shape[0])
             b_condmat = evo(imat, ab_dist * t_scale, pmat)
-            ab_totalmat = numpy.multiply(a_prob.reshape(-1, 1),b_condmat)
+            ab_totalmat = numpy.multiply(a_prob.reshape(-1, 1), b_condmat)
             totalmat_list.append(ab_totalmat)
         pp, pc = sum_prob(totalmat_list)
         p_list.append(pp)
@@ -201,10 +202,11 @@ def calc_conv(group, tree, rates, freqs, smat):
     return sum(p_list), sum(c_list), p_list, c_list
 
 
-def evo(n0,t,mat):
+def evo(n0, t, mat):
     t = int(round(t))
-    n = numpy.dot(n0, numpy.linalg.matrix_power(mat,t))
+    n = numpy.dot(n0, numpy.linalg.matrix_power(mat, t))
     return n
+
 
 def sum_prob(tmat_list):
     ppmat = numpy.ones_like(tmat_list[0])
