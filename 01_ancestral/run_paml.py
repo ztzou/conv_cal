@@ -95,7 +95,7 @@ def main():
         cmd_dicts.append({
             'args': ['codeml',],
             'cwd': os.path.abspath(gene_out_dir),
-            'stdout': open(f'{gene_out_dir}/log', 'w')
+            # 'stdout': open(f'{gene_out_dir}/log', 'w')
         })
     run_processes(cmd_dicts, nproc=pool_size, wait=3)
     with open(f'{gene_out_dir}/rst') as rst_f:
